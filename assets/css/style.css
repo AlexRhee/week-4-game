@@ -1,0 +1,39 @@
+#top {
+    background-color: orange;
+    color: cyan;
+}
+.text {
+    background-color: dodgerblue;
+    color: pink;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+body {
+    background-color: rgb(211, 107, 107)
+}
+.scoreCard {
+    background-color: greenyellow;
+    color: purple;
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.scoreNumber {
+    background-color: violet;
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.crystals {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.count {
+    background-color: cornflowerblue;
+    color: lemonchiffon;
+    text-align: center;
+    padding: 5px;
+}

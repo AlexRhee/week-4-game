@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    
+    
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron col-md-5" id="top">
+                <h1>Crystal Collectors!?!?</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 text">
+                <p>You will be given a random number at the start of the game.</p>
+                <br>
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                <br>
+                <p>You win the game by matching your score to a random number, you lose the game if your total score goes above the random number.</p>
+                <br>
+                <p>The value of each crystal is hidden until you click on it.</p>
+                <br>
+                <p>Each time the game starts, the value of each crystal will change.</p>
+            </div>
+
+        </div>
+
+        <div class ="row">
+            <div class="col-md-3 scoreCard"><h1><span id="score">0</span></h1></div>
+            <div class="col-md-1 scoreNumber">
+                <div class="winner">Wins: <span id="wins">0</span></div>
+                <br>
+                <div class="loser">Losses: <span id="losses">0</span></div>
+            </div>
+        </div>
+
+        <div class="row crystals">
+            <div class="col-md-2">
+                <span id="crystal1"><img src="assets/images/blue.png" alt="blue" class="img img-responsive" /></span>
+            </div>
+            <div class="col-md-2">
+                <span id="crystal2"><img src="assets/images/green.png" alt="green" class="img img-responsive" /></span>
+            </div>
+            <div class="col-md-2">
+                <span id="crystal3"><img src="assets/images/white.png" alt="white" class="img img-responsive" /></span>
+            </div>
+            <div class="col-md-2">
+                <span id="crystal4"><img src="assets/images/sparkle.png" alt="sparkle" class="img img-responsive" /></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 count">
+                <p>Your total score is:</p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-md-3 count">
+                    <h2><span id="total">0</span></h2>
+                </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    
+</body>
+</html>
